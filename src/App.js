@@ -2,14 +2,15 @@ import './App.css';
 import SecondComponent, {FirstComponent} from "./components/learning-examples/SecondComponent";
 import Counter from "./components/counter/Counter";
 import React, {Component} from "react";
+import TodoApp from "./components/todo/TodoApp";
 
 
 
 function App() {
     return (
         <div className="App">
-            <Counter/>
-            {/*<TodoApp/>*/}
+            {/*<Counter/>*/}
+            <TodoApp/>
         </div>
     );
 }
